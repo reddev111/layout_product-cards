@@ -78,16 +78,15 @@
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0;
-
-    box-sizing: border-box;
-    border: 1px solid $color-primary;
     border-radius: 5px;
     cursor: pointer;
+    box-sizing: border-box;
 
     &:hover {
       background-color: $color-white;
       color: $color-primary;
-      border-color: $color-primary;
+      outline: 1px solid $color-primary;
+      outline-offset: -1px;
     }
   }
 }
